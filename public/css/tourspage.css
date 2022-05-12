@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+body{
+	width: 1280px;
+}
+
+.top{
+	background-image: url('images/photos/168020-dorozhnyj_velosiped-gornyj_velosiped-doroga-legkovyye_avtomobili-velosport-1920x1080.jpg');
+	height: 720px;
+	width: 1280px;
+}
+
+.count{
+	background-color: #E7D682;
+	border-radius: 30%;
+	color:black;
+	font-weight: bolder;
+	padding: 3px 5px 3px 5px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	margin-bottom: 400px;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 110%;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+li{
+	display: inline;
+}
+
+.logo{
+	width: 200px;
+	height: 75px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-right: 450px;
+}
+
+.topheader{
+	width: 672px;
+	height: 161px;
+	font-size: 200%;
+	color: white;
+	font-family: 'Playfair Display', serif;
+	margin-left: 600px;
+	padding-bottom: 50px;
+}
+
+.lowheader{
+	width: 672px;
+	height: 161px;
+	font-size: 120%;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 600px;
+	padding-top: 300px;
+	padding-top: 40px;
+}
+
+.centerelement{
+	padding-left: 110px;
+	margin-right: 110px;
+}
+
+.top .a{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 110%;
+	margin-top: 5px;
+}
+
+.toptop{
+	margin-right: 67px;
+}
+
+.block{
+	margin-top: 150px;
+}
+
+.blockimg{
+	width: 600px;
+	height: 450px;
+	border-radius: 10%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.blockbutton{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockheader{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+	text-align: center;
+	margin-top: 87px;
+	margin-bottom: 92px;
+	font-weight: bold;
+}
+
+#lefttxt{
+	width: 20em;
+	padding-left: 20px;
+}
+
+#centertxt{
+	width: 20em;
+	padding-left: 140px;
+	padding-right: 50px;
+}
+
+#center{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.blocktxt{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-top: 30px;
+    margin-right: auto;
+    width: 40em;
+	text-align: center;
+}
+
+.blocktxt a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+	background-color: rgb(248, 241, 111);
+	border-radius: 10%;
+	margin-left: auto;
+	padding: 5px 10px 5px 10px;
+    margin-right: auto;
+    width: 40em;
+	text-align: center;
+}
+
+#centertxt{
+	padding-left: 150px;
+	padding-right: 170px;
+}
+
+#centertxt2{
+	padding-left: 60px;
+	padding-right: 180px;
+}
+
+#centertxt3{
+	padding-left: 140px;
+	padding-right: 50px;
+}
+
+#lefttxt3{
+	padding-left: 20px;
+}
+
+.endtxt{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.instagram{
+	width: 50px;
+	height: 60px;
+}
+
+.twiter{
+	width: 50px;
+	height: 60px;
+	margin-left: 140px;
+}
+
+.telegram{
+	width: 50px;
+	height: 53px;
+	margin-left: 140px;
+}
+
+.yt{
+	width: 75px;
+	height: 60px;
+	margin-left: 140px;
+}
+
+.footer{
+	background-color: #E7D682;
+	margin-top: 50px;
+}
+
+.footertxt{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 40px;
+}
+
+.footerimgs{
+	margin-top: 70px;
+	padding-bottom: 50px;
+	margin-left: 240px;
+    margin-right: auto;
+    width: 90em;
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+body{
+	width: 390px;
+}
+
+.head{
+	height: 400px;
+	background-image: url('./images/photos/maxresdefault.jpg');
+}
+
+.logo{
+	width: 40px;
+	height: 17px;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 100px;
+}
+
+.header{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-left: 30px;
+	margin-top: 390px;
+    margin-right: auto;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+li{
+	display: inline;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	margin-bottom: 270px;
+}
+
+.headtxt{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+.headtxt2{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 10px;
+	width: 30em;
+	margin-left: 15px;
+}
+
+.blockhead{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	width: 30em;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.blockimg{
+	width: 200px;
+	height: 131px;
+	border-radius: 15%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.blocktxt{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	width: 20em;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.endtxt{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.instagram{
+	width: 20px;
+	height: 20px;
+}
+
+.twiter{
+	width: 20px;
+	height: 17px;
+	margin-left: 40px;
+}
+
+.telegram{
+	width: 20px;
+	height: 17px;
+	margin-left: 40px;
+}
+
+.yt{
+	width: 20px;
+	height: 20px;
+	margin-left: 40px;
+}
+
+.footer{
+	background-color: #E7D682;
+	margin-top: 20px;
+}
+
+.footertxt{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.footerimgs{
+	margin-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 65px;
+    margin-right: auto;
+    width: 90em;
+}
