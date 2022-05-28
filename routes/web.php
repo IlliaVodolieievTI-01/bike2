@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AppController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,22 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('mainpage');
-});
+Route::get('/', [AppController::class,'register']);
 
-Route::get('/mainpage', function () {
-    return view('mainpage');
-});
+Route::get('/register', [AppController::class,'register']);
 
-Route::get('/tourspage', function () {
-    return view('tourspage');
-});
+Route::get('/autorization', [AppController::class,'autorization'])->name('autorization');
 
-Route::get('/bikespage', function () {
-    return view('bikespage');
-});
+Route::get('/mainpage', [AppController::class,'mainpage'])->name('mainpage');
 
-Route::get('/equipmentspage', function () {
-    return view('equipmentspage');
-});
+Route::get('/tourspage', [AppController::class,'tourspage']);
+
+Route::get('/bikespage', [AppController::class,'bikespage']);
+
+Route::get('/equipmentspage', [AppController::class,'equipmentspage']);
+
+Route::post('register/check', [AppController::class,'register_check']);
+
+Route::post('autorization/check', [AppController::class,'autorization_check']);

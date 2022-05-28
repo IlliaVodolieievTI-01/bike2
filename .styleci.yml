@@ -4,7 +4,7 @@ php:
     - no_unused_imports
   finder:
     not-name:
-      - index.blade.php
+      - autorization.blade.php
 js:
   finder:
     not-name:
